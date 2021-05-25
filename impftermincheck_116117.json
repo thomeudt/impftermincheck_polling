@@ -33,6 +33,18 @@
       "Description": ""
     },
     {
+      "Command": "open",
+      "Target": "https://003-iz.impfterminservice.de/impftermine",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://003-iz.impfterminservice.de/impftermine/service?plz=72072",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "click",
       "Target": "xpath=/html/body/app-root/div/app-page-its-login/div/div/div[2]/app-its-login-user/div/div/app-corona-vaccination/div[2]/div/div/label[2]/span/small",
       "Value": "",
