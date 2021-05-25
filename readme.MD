@@ -2,7 +2,7 @@
 
 Impfterminservice.de erscheint nicht nur auf den ersten Blick eine Zumutung für die arbeitende und homeschoolende Bevölkerung zu sein, da man quasi manuell (per Mausklick) einen Service "pollen" muss, um überhaupt die Möglichkeit zu haben, als impfberechtigter Bürger einen Termin anzufragen.
 
-Dieses Script für UI.Vision RPA (ein UI Testwerkzeug) automatisiert diesen regelmäßigen Mausklick solange, bis zumindest die Prüfung auf einen Impftermin wieder möglich ist. Um den Server zu schonen, ist zwischen jedem Polling-Request eine Wartezeit von 5 Sekunden eingebaut.
+Dieses Script für UI.Vision RPA (ein UI Testwerkzeug) automatisiert diesen regelmäßigen Mausklick solange, bis zumindest die Prüfung auf einen Impftermin wieder möglich ist. Um den Server zu schonen, ist zwischen jedem Polling-Request eine Wartezeit von 60 Sekunden eingebaut.
 
 # How To 
 
