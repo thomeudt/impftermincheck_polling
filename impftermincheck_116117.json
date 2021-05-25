@@ -1,0 +1,90 @@
+{
+  "Name": "test",
+  "CreationDate": "2021-5-25",
+  "Commands": [
+    {
+      "Command": "echo",
+      "Target": "Los gehts",
+      "Value": "#shownotification",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "/html/body/app-root/div/app-page-its-login/div/div/div[2]/app-its-login-user/div/div/app-corona-vaccination/div[3]/div/div/div/div[2]/div/div/div",
+      "Value": "WARNING",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "0",
+      "Value": "ATTEMPTS",
+      "Description": ""
+    },
+    {
+      "Command": "while_v2",
+      "Target": "WARNING == \"Es wurden keine freien Termine in Ihrer Region gefunden. Bitte probieren Sie es später erneut.  Sobald genügend Impfstoff und die entsprechenden Kapazitäten vorhanden sind, werden die Impfzentren weitere Termine einstellen.\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "next try...",
+      "Value": "WARNING",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/app-root/div/app-page-its-login/div/div/div[2]/app-its-login-user/div/div/app-corona-vaccination/div[2]/div/div/label[2]/span/small",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/app-root/div/app-page-its-login/div/div/div[2]/app-its-login-user/div/div/app-corona-vaccination/div[2]/div/div/label[2]/span/small",
+        "xpath=//label[2]/span/small",
+        "css=body > app-root > div > app-page-its-login > div > div > div:nth-child(2) > app-its-login-user > div > div > app-corona-vaccination > div:nth-child(2) > div > div > label:nth-child(2) > span > small"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/app-root/div/app-page-its-login/div/div/div[2]/app-its-login-user/div/div/app-corona-vaccination/div[2]/div/div/label[2]/input",
+      "Value": "",
+      "Targets": [
+        "name=vaccination-approval-checked",
+        "xpath=/html/body/app-root/div/app-page-its-login/div/div/div[2]/app-its-login-user/div/div/app-corona-vaccination/div[2]/div/div/label[2]/input",
+        "xpath=//input[@name='vaccination-approval-checked' and @value='0']",
+        "xpath=//label[2]/input",
+        "css=body > app-root > div > app-page-its-login > div > div > div:nth-child(2) > app-its-login-user > div > div > app-corona-vaccination > div:nth-child(2) > div > div > label:nth-child(2) > input"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number (${ATTEMPTS}) + 1; ",
+      "Value": "ATTEMPTS",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "5000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "/html/body/app-root/div/app-page-its-login/div/div/div[2]/app-its-login-user/div/div/app-corona-vaccination/div[3]/div/div/div/div[2]/div/div/div",
+      "Value": "WARNING",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Endlich geklappt!",
+      "Value": "#shownotification",
+      "Description": ""
+    }
+  ]
+}
